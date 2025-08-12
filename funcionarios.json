@@ -1,0 +1,22 @@
+[
+    {
+        "nome": "Maria Souza",
+        "cargo": "Designer",
+        "imagem": "./img/maria.jpg"
+    },
+    {
+        "nome": "João Silva",
+        "cargo": "DBA",
+        "imagem": "./img/joao.jpg"
+    },
+    {
+        "nome": "Hugo Pereira",
+        "cargo": "FrontEnd",
+        "imagem": "./img/hugo.jpg"
+    },
+    {
+        "nome": "Ana Maria",
+        "cargo": "BackEnd",
+        "imagem": "./img/ana.jpg"
+    }
+]

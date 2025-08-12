@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: beige;
+}
+
+.container{
+    display: flex;
+    gap: 20px;
+    
+}
+
+.card{
+    display: grid;
+    place-content: center;
+    justify-items: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow:5px 5px 5px #0009;
+}
+
+img{
+    width: 100px;
+    border: none;
+    border-radius: 50%;
+   
+
+}
+
+span{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+p{
+    font-size: 15px;
+}
