@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* Feito a centralização, altura e cor do body */
 body{
     display: flex;
     justify-content: center;
@@ -12,12 +13,14 @@ body{
     background-color: beige;
 }
 
+/* Feito a separação dos cards através do gap pela classe container */
 .container{
     display: flex;
     gap: 20px;
     
 }
 
+/* Centralização do card com uma leve sombra e bordas arredondadas */
 .card{
     display: grid;
     place-content: center;
@@ -29,6 +32,7 @@ body{
     box-shadow:5px 5px 5px #0009;
 }
 
+/* Bordas arredondadas para a imagem dos funcionários */
 img{
     width: 100px;
     border: none;
@@ -37,11 +41,13 @@ img{
 
 }
 
+/* Aumento de fonte do span e fonte em negrito */
 span{
     font-size: 20px;
     font-weight: bold;
 }
 
+/* Aumento de fonte do p */
 p{
     font-size: 15px;
 }
